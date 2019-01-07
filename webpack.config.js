@@ -46,7 +46,8 @@ let webpackConfig = {
     }),
     new HtmlWebpackPlugin({
       title: "test index",
-      filename: 'index.html'
+      filename: 'index.html',
+      template: 'index.html'
     }),
   ],
   module: {
